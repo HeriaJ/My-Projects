@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;900&family=Ubuntu:wght@700&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+#title{
+    background-color: #ff4c68;
+}
+.container-fluid{
+    padding: 0 15%;
+}
+/* Features section */
+#features{
+    padding: 8% 15%;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+#features h3{
+    font-family: 'Montserrat', sans-serif;   
+    font-weight: 900;
+}
+#features p{
+    color: grey;
+    font-family: 'Montserrat', sans-serif;   
+}
+.fa-color{
+    color: #ef8172;
+    margin-bottom: 25px;
+}
+.fa-color:hover{
+    color:#ff4c68 ;
+}
