@@ -10,6 +10,10 @@ body{
     line-height: 1.5;
     font-weight: 900;
 }
+/*Title*/
+.main-img{
+    transform: rotate(20deg);
+}
 
 #title{
     background-color: #ff4c68;
@@ -39,4 +43,35 @@ body{
 }
 .fa-color:hover{
     color:#ff4c68 ;
+}
+/*Testimonial section*/
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: whitesmoke;
+}
+#testimonials h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+.testimonial-img{
+    border-radius: 100%;
+    padding: 20px;
+    width: 15%;
+}
+
+/*Press section*/
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+    text-align: center;
+}
+#press img{
+    margin: 20px 20px 20px 50px;
+    width: 15%;
+   
 }
