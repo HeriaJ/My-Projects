@@ -115,10 +115,47 @@ body{
     #title{
         text-align: center;
     }
-
     .main-img{
         position: static;
-        padding-top: 50px;
+        padding: 50px;
         transform: rotate(0);
     }
+}
+
+
+/* Call to action */
+
+#cta{
+    background-color: #ff4c68;
+    color: white;
+    text-align: center;
+    line-height: 1.5;
+    padding: 10% 15%;
+}
+#cta h3{
+    font-weight: 900;
+    font-size: 64px;
+}
+#cta button{
+    margin: 15px;
+}
+
+/*Footer*/
+#footer{
+    text-align: center;
+    padding: 75px;
+    
+}
+#footer p{
+    font-weight: 700;
+    color: gray;
+}
+.footer-icons{
+    margin: 15px 15px;
+    opacity: 70%;
+}
+.footer-icons:hover{
+    opacity: 100%;
+    color: #ef8172;
+    cursor: pointer;
 }
