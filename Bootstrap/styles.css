@@ -10,6 +10,8 @@ body{
     line-height: 1.5;
     font-weight: 900;
 }
+
+
 /*Title*/
 
 .main-img{
@@ -108,3 +110,15 @@ body{
     font-weight: 900;
 }
 
+@media (max-width:1028px){
+
+    #title{
+        text-align: center;
+    }
+
+    .main-img{
+        position: static;
+        padding-top: 50px;
+        transform: rotate(0);
+    }
+}
