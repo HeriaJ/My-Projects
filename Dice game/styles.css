@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Lato:wght@400;700;900&display=swap');.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #2A2B2A;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lato', sans-serif;
+  text-shadow: 5px 0 #5E4955;
+  font-size: 8rem;
+  color: #C6DDF0;
+}
+
+p {
+  font-size: 2rem;
+  color: #C6DDF0;
+  font-family: 'Fascinate', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
