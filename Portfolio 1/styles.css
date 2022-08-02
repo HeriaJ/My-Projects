@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;500;700&display=swap');
+
+*{
+font-family: 'Rubik', sans-serif;
+}
+/*Navbar*/
+.logo{
+    color: white;
+}
+.logo:hover{
+    color:aquamarine;
+    cursor: pointer;
+    transition: 0.5s;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10%;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+}
+nav ul li a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+  
+}
+nav ul li a:hover{
+    color: aquamarine;
+    transition: 0.5s;
+}
+/*Main content*/
+#main-animation{
+    height: auto;
+    margin-bottom: 124px;
+    width: 100%;
+}
+.content-area{
+    color: whitesmoke;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    text-align: center;
+}
+.content p{
+    line-height: 5px;
+    padding: 0 5px;
+}
+.pro{
+    font-size: 10px;
+}
+.main-section-icons{
+    color: white;
+    text-align: center;
+    padding:5px;
+}
+.main-section-icons:hover{
+    color: #0d3045;
+    transition: 0.3s;
+}
+
+.main-img{
+    border-radius: 50%;
+    height: auto;
+    margin: 15px;
+    width: 250px;
+}
+
+/*Tools of trade area*/
+.tools-of-trade{
+    text-align: center;
+    margin:25px;
+}
+.tot-p{
+    margin: 25px;
+}
+.tot-p i:hover{
+    color:#0d3045;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+/*About me*/
+.about-me-background{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./Images/pexels-cottonbro-4069293.jpg);
+    background-size:cover;
+    height: 65vh;
+    width: 100%;
+    padding: 12px;
+    
+}
+.about-me-content h1{
+    color: white;
+    margin: 25px 25px;
+    text-align: center;
+}
+.about-me-content h3{
+    color: white;
+    line-height: 75px;
+    
+}
+.about-me-txt {
+    margin: 25px;
+    padding: 25px;
+}
+.about-me.text h3{
+    text-align: center;  
+}
+/*My projects*/
+.my-projects h1{
+    text-align: center;
+    padding: 25px;
+}
+/*Contact me*/
+.contact-me-form{
+   padding: 25px;
+}
+.contact-me h1{
+    text-align: center;
+}
+.contact-me-form button{
+    margin: 25px;
+    font-size: 18px;
+}
+.contact-me-form button:hover{
+    color: white;
+    background-color:#0d3045;
+    transform: 0.5s;
+}
+/*Footer start*/
+.footer {
+    background-color: #0d3045;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+  }
+  .footer h4 {
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+  }
+  .icons .fa-brands {
+    color: white;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+  }
+  .made-by{
+    margin: 50px 0px 0px 0px ;
+  }
+  .footer p{
+    color: white;
+  }
+  .footer h1{
+    color: white;
+  }
